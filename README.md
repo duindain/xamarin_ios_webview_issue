@@ -2,9 +2,16 @@
 Xamarin forms webview issue in loading downloaded assets
 
 Example for showing iOS rendering a webview with explicit path files works in simulator and fails in real device
-Works correctly in Android when prefaced with file://
+Works correctly in Android
 
-BaseUrl doesnt work as expected
+I tried multiple methods for adding assets including;
+* embedding in manifest
+* adding to app specific folders
+* direct referencing from a folder within the apps library directory
+* Adding base URL to the libraries folder
+* Relative and exact paths
+
+
 
 
 Android Emulator             |  Pixel 2 real device
