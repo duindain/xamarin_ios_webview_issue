@@ -1,5 +1,5 @@
 # xamarin_ios_webview_issue
-Xamarin forms webview issue in loading downloaded assets
+Xamarin forms webview issue in loading runtime downloaded assets from the apps local folders
 
 Example for showing iOS rendering a webview with explicit path files works in simulator and fails in real device
 Works correctly in Android in Emulator and Physical devices
