@@ -1,0 +1,77 @@
+﻿h1 {
+    font-size: large;
+    color: #01579b;
+    text-align: left;
+}
+
+h2 {
+    font-size: medium;
+    color: #01579b;
+}
+
+h3 {
+    font-size: medium;
+    color: #01579b;
+}
+
+h4 {
+    font-size: medium;
+    color: #01579b;
+}
+
+span.ListItem {
+    display: list-item;
+}
+
+span.New {
+    color: #01579b;
+}
+
+img {
+    vertical-align: middle;
+    width:50px;
+    height:50px;
+}
+
+a:link {
+    color: #1565c0;
+}
+/*
+div {
+    border: 2px solid #a1a1a1;
+    border-radius: 25px;
+    padding: 10px 40px;
+    width: auto;
+    background: white;
+}
+*/
+
+.break-word {
+    word-wrap: break-word;
+}
+
+
+body {
+    background-color: beige;
+}
+
+.container {
+    display: block;
+    grid-template-columns: auto auto; /* 2 COL LAYOUT */
+}
+
+.divL, .divR {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: small;
+}
+
+.divL {
+    width: 85%;
+}
+
+.divR {
+    background: #ffdad8;
+    width: 14%;
+}
